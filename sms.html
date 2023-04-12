@@ -7,7 +7,7 @@ display: none;
 display: block;
 }
 }
-table,th, td {
+tableth td {
 border: 1px solid black;
 border-collapse: collapse;
 text-align:Center;
@@ -53,7 +53,7 @@ window.frames["print_frameभम"].window.print();
 </script>
 <script>
 function searchDatead() {
-var input_startDate, input_stopDate, table, tr, i;
+var input_startDate input_stopDate table tr i;
 // get the values and convert to date
 input_startDate = new Date(document.getElementById("date-starter").value);
 input_stopDate = new Date(document.getElementById("date-stoper").value);
@@ -78,7 +78,7 @@ function searchDateadAlternative() {
 // get the values and convert to date
 const input_startDate = new Date(document.getElementById("date-starter").value);
 const input_stopDate = new Date(document.getElementById("date-stoper").value);
-// only process table body rows, ignoring footer/headers
+// only process table body rows ignoring footer/headers
 const tr = document.querySelectorAll("#statement tbody tr")
 for (let i = 0; i < tr.length; i++) {
 // ensure we have a relevant td
@@ -101,7 +101,7 @@ tr[i].style.display = 'none';
 </script>
 <script>
 function cilio() {
-var input, filter, table, tr, td, i, txtValue;
+var input filter table tr td i txtValue;
 input = document.getElementById("cizo");
 filter = input.value.toUpperCase();
 table = document.getElementById("statement");
@@ -119,7 +119,7 @@ tr[i].style.display = "none";
 }
 }
 function cilio2() {
-var input, filter, table, tr, td, i, txtValue;
+var input filter table tr td i txtValue;
 input = document.getElementById("cizo2");
 filter = input.value.toUpperCase();
 table = document.getElementById("statement");
